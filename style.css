@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* nav */
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+ul {
+  color: #2d3945;
+}
+
+li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+li:last-child {
+  color: #2d25c8;
+}
+
+nav button {
+  border: 2px solid #2d25c8;
+  background: none;
+  color: #2d25c8;
+  padding: 5px 20px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 150px;
+}
+.left {
+  align-self: center;
+}
+.left h2 {
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+.left p {
+  margin-top: 10px;
+  width: 550px;
+  color: lightslategray;
+}
+.header-button {
+  margin-top: 15px;
+  border: none;
+  background-color: #2d25c8;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 25px;
+}
+.right img {
+  height: 300px;
+  width: 500px;
+}
+
+/* About us */
+
+.about {
+  margin-top: 100px;
+  display: flex;
+  background-color: #f3f6f9;
+  gap: 70px;
+  justify-content: center;
+}
+.about-us {
+  width: 600px;
+  line-height: 25px;
+  margin-top: 5px;
+  align-self: center;
+}
+
+.about-us h1 {
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.about-us h1 span {
+  color: #2d25c8;
+  font-family: "Roboto", sans-serif;
+}
+
+.about-us p {
+  margin-top: 35px;
+  width: 780px;
+  color: lightslategray;
+}
+
+.about-us h3 {
+  margin-top: 35px;
+  width: 780px;
+}
+
+.img-about {
+}
+
+/* Features */
+
+.feature-text h1,
+.fir {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin-top: 15px;
+}
+.fir {
+  font-weight: bold;
+}
+.quality {
+  color: #2d25c8;
+  text-align: center;
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+}
+.features {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.feature img {
+  margin-bottom: 15px;
+}
+.feature h3 {
+  font-family: "Roboto", sans-serif;
+}
+.feature p {
+  width: 250px;
+  margin-top: 15px;
+  color: lightslategray;
+}
