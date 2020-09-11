@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 /* nav */
@@ -71,6 +72,7 @@ nav button {
   gap: 70px;
   justify-content: center;
 }
+
 .about-us {
   width: 600px;
   line-height: 25px;
@@ -103,6 +105,9 @@ nav button {
 }
 
 /* Features */
+.feature-text {
+  margin-top: 70px;
+}
 
 .feature-text h1,
 .fir {
@@ -124,7 +129,23 @@ nav button {
   display: flex;
   justify-content: center;
 }
+@media screen and (max-width: 1350px) {
+  .features {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.feature {
+  margin: 0 30px;
+}
 
+@media screen and (max-width: 1350px) {
+  .feature {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 600px;
+  }
+}
 .feature img {
   margin-bottom: 15px;
 }
@@ -132,7 +153,230 @@ nav button {
   font-family: "Roboto", sans-serif;
 }
 .feature p {
-  width: 250px;
+  width: 280px;
+  font-family: "Roboto", sans-serif;
+
   margin-top: 15px;
   color: lightslategray;
+}
+@media screen and (max-width: 1350px) {
+  .feature p {
+    width: 100%;
+  }
+}
+.products {
+  text-align: center;
+  margin: 30px;
+}
+
+/* Test */
+.test {
+  background: #2d25c8;
+  height: 33rem;
+}
+.test_text {
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+  padding: 70px;
+}
+.tests {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.texting {
+  background: white;
+  padding: 10px 40px;
+}
+
+.test_p {
+  margin-top: 20px;
+  width: 400px;
+  color: lightslategray;
+}
+
+.fas {
+  color: #d5d3f4;
+}
+
+.author {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.author_image {
+  background-color: black;
+  border-radius: 50%;
+}
+.author_image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.work {
+  color: #878c9c;
+  margin-top: 5px;
+}
+
+/* projects */
+.projects {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.project_logo {
+  display: flex;
+  justify-content: center;
+}
+.project_logo img {
+  height: 50px;
+  width: 50px;
+  margin: 0 150px;
+}
+
+.project_logos {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.project_logos img {
+  margin: 0 150px;
+}
+.product-logo {
+}
+
+/* Popup*/
+.popUp {
+  display: flex;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.popUp_background {
+  display: flex;
+  border-radius: 10px;
+  background: #2d25c8;
+  padding: 70px;
+}
+.popUp_text {
+  color: white;
+  width: 700px;
+}
+.popUp_button {
+  border: none;
+  padding: 20px 80px;
+  border-radius: 50px;
+  color: #2d25c8;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+/* footer */
+
+.res_background {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 100%;
+}
+.footer {
+  background: #f5f5f5;
+  padding: 70px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 30vh;
+  margin-top: 15vh;
+}
+
+.contact i {
+  color: #2d25c8;
+  margin: 0 20px;
+}
+
+@media screen and (max-width: 1150px) {
+  .about {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .img-about {
+    display: flex;
+    flex: 1;
+    margin: 25px auto;
+  }
+
+  .about-us {
+    width: auto;
+    line-height: 25px;
+    margin-top: 5px;
+    align-self: center;
+    flex: 2;
+    padding: 35px;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+
+  .left {
+    align-self: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    max-width: 80%;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+  }
+
+  .left h2 {
+    flex: 1;
+  }
+
+  .left p {
+    flex: 2;
+  }
+
+  .header-button {
+    flex: 3;
+  }
+
+  .right {
+    display: flex;
+    flex: 2;
+    margin: auto;
+  }
+  .project_logo {
+    justify-content: none;
+  }
+
+  .project_logo img {
+    margin: 0 auto;
+  }
+
+  .project_logos {
+    margin: 50px 0;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .test {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .tests {
+    display: flex;
+    flex-direction: column;
+  }
 }
